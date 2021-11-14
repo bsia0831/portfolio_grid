@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -36,27 +37,110 @@ main {
         height: 100%; }
       main section .item:nth-of-type(2) {
         height: 5vh; }
+        main section .item:nth-of-type(2) .inner span {
+          display: block;
+          font: lighter 24px/5vh 'Heebo';
+          letter-spacing: 1px;
+          text-align: center; }
       main section .item:nth-of-type(3) {
         height: 10vh; }
+        main section .item:nth-of-type(3) .inner h1 {
+          display: block;
+          font: 30px/10vh 'Heebo';
+          letter-spacing: 2px;
+          text-align: center; }
       main section .item:nth-of-type(4) {
         width: 33.3%;
         height: 10vh; }
       main section .item:nth-of-type(5) {
         height: 10vh; }
+        main section .item:nth-of-type(5) .inner span {
+          display: block;
+          font: 15px/10vh 'Heebo';
+          letter-spacing: 2px;
+          text-align: center;
+          cursor: pointer; }
       main section .item:nth-of-type(6) {
         height: 10vh; }
+        main section .item:nth-of-type(6) .inner i {
+          display: block;
+          font-size: 20px;
+          line-height: 10vh;
+          text-align: center;
+          cursor: pointer;
+          color: #555; }
       main section .item:nth-of-type(7) {
         height: 5vh; }
+        main section .item:nth-of-type(7) .inner span {
+          display: block;
+          font: lighter 24px/5vh 'Heebo';
+          letter-spacing: 1px;
+          text-align: center; }
       main section .item:nth-of-type(8) {
         width: 33.3%;
         height: 30vh; }
+        main section .item:nth-of-type(8) .inner::after {
+          content: "";
+          display: block;
+          clear: both; }
+        main section .item:nth-of-type(8) .inner .right-border-box {
+          float: left;
+          width: calc(100% / 6);
+          height: 50%;
+          border-right: 1px solid #111;
+          margin-top: 7vh; }
+          main section .item:nth-of-type(8) .inner .right-border-box:last-child {
+            border-right: none; }
       main section .item:nth-of-type(9) {
-        width: 33.3%; }
+        width: 33.3%;
+        background-image: url(../img/main1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        filter: grayscale(1); }
       main section .item:nth-of-type(10) {
         width: 33.3%; }
+        main section .item:nth-of-type(10) .inner .first-wrap {
+          width: 90%;
+          height: 90%;
+          border: 1px solid #111;
+          margin: 5% auto; }
+          main section .item:nth-of-type(10) .inner .first-wrap .second-wrap {
+            width: 90%;
+            height: 90%;
+            border: 1px solid #111;
+            margin: 5% auto;
+            text-align: center; }
+            main section .item:nth-of-type(10) .inner .first-wrap .second-wrap h2 {
+              display: block;
+              position: relative;
+              font: 30px/1 'Heebo';
+              letter-spacing: 2px;
+              top: 50%;
+              transform: translateY(-50%); }
+            main section .item:nth-of-type(10) .inner .first-wrap .second-wrap p {
+              display: block;
+              position: relative;
+              font: 10px/1 'Heebo';
+              letter-spacing: 2px;
+              top: 45%; }
       main section .item:nth-of-type(11) {
         width: 33.3%;
         height: 40vh; }
+        main section .item:nth-of-type(11) .inner {
+          padding: 30px 20px; }
+          main section .item:nth-of-type(11) .inner h2 {
+            font: lighter 35px/1 'Heebo';
+            letter-spacing: 2px; }
+          main section .item:nth-of-type(11) .inner p {
+            position: absolute;
+            bottom: 30px;
+            font: lighter 15px/1 'Heebo'; }
+          main section .item:nth-of-type(11) .inner i {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            text-align: right; }
       main section .item:nth-of-type(12) {
         height: 30vh; }
       main section .item:nth-of-type(13) {
