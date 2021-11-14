@@ -238,7 +238,7 @@ main {
             .inner{
                padding: 30px 20px;
                h2{
-                  font: lighter 35px/1 'Heebo'; letter-spacing: 2px;
+                  font: lighter 35px/1.2 'Heebo'; letter-spacing: 2px;
                }
                p{
                   position: absolute; bottom: 23px;
@@ -301,36 +301,157 @@ main {
 
          &:nth-of-type(18) {
             width: 33.3%;
-            height: 20vh;
+            height: 50vh;
+            .inner{
+               width: 90%;
+               height: 90%;
+               border: 1px solid #111;
+               margin: 4% auto;
+               background-image: url(../img/main6.jpeg);
+               background-repeat: no-repeat;
+               background-position: top;
+               background-size: cover;
+               h3{
+                  font: 25px/1 'Heebo'; color: #fff; letter-spacing: 2px;
+                  writing-mode: vertical-rl;
+                  position: absolute;
+                  top: 50%; left: 50%; transform: translate(-50%, -50%);
+               }
+            }
          }
 
          &:nth-of-type(19) {
             width: 33.3%;
             height: 20vh;
+            .inner{
+               padding: 30px 20px;
+               h2{
+                  font: lighter 20px/1 'Heebo'; letter-spacing: 2px;
+               }
+               p{
+                  position: absolute; bottom: 30px;
+                  font: lighter 12px/1 'Heebo';
+                  text-decoration: underline;
+               }
+            }
          }
 
          &:nth-of-type(20) {
             width: 33.3%;
-            height: 50vh;
+            height: 20vh;
+            .inner{
+               position: relative;
+               .wrap{
+                  position: absolute;
+                  top: 50%; left: 50%;
+                  transform: translate(-50%, -50%);
+                  margin: 0 auto; text-align: center;
+                  position: absolute;
+                  &::after{
+                     content: ''; display: block; clear: both;
+                  }
+
+                  .circle{
+                     float: left;
+                     width: 15px; height: 15px;
+                     margin-right: 50px;
+                     border-radius: 100%;
+                     border: 1px solid #111;
+                     cursor: pointer;
+                     transition: all .3s;
+
+                     &:first-child{
+                        background-color: #111;
+                     }
+
+                     &:last-child{
+                        margin-right: 0;
+                     }
+
+                     &:hover{
+                        background-color: #111;
+                     }
+                  }
+               }
+            }
          }
 
          &:nth-of-type(21) {
-            width: 33.3%;
             height: 50vh;
+            .inner{
+               background-image: url(../img/main7.jpeg);
+               background-position: center;
+               background-size: cover;
+               filter: grayscale(1);
+               padding: 1px;
+
+               .wrap{
+                  width: 80%; height: 80%;
+                  margin: 17% auto;
+                  border: 1px solid #fff;
+                  background-color: #fff;
+
+                  h3{
+                     font: lighter 30px/1 'Heebo'; color: #fff; letter-spacing: 2px;
+                     color: #111;
+                     writing-mode: vertical-rl;
+                     position: absolute;
+                     top: 50%; left: 50%; transform: translate(-50%, -50%);
+                  }
+               }
+            }
          }
 
          &:nth-of-type(22) {
-            width: 33.3%;
             height: 50vh;
+            .inner{
+               padding: 30px 20px;
+               h2{
+                  font: lighter 35px/1.3 'Heebo'; letter-spacing: 2px;
+               }
+               p{
+                  position: absolute; bottom: 30px;
+                  font: lighter 9px/1.3 'Heebo';
+                  text-decoration: underline;
+               }
+            }
          }
 
          &:nth-of-type(23) {
             width: 33.3%;
-            height: 20vh;
+            height: 50vh;
+            .inner{
+               width: 90%;
+               height: 90%;
+               border: 1px solid #111;
+               margin: 4% auto;
+               background-image: url(../img/main8.jpeg);
+               background-repeat: no-repeat;
+               background-position: top;
+               background-size: cover;
+               h3{
+                  font: 23px/1 'Heebo'; color: #fff; letter-spacing: 2px;
+                  writing-mode: vertical-rl;
+                  position: absolute;
+                  top: 50%; left: 50%; transform: translate(-50%, -50%);
+               }
+            }
          }
 
          &:nth-of-type(24) {
-            height: 30vh;
+            width: 33.3%;
+            height: 20vh;
+            .inner{
+               padding: 30px 20px;
+               h2{
+                  font: lighter 30px/1.3 'Heebo'; letter-spacing: 2px;
+               }
+               p{
+                  position: absolute; bottom: 30px;
+                  font: lighter 9px/1.3 'Heebo';
+                  text-decoration: underline;
+               }
+            }
          }
 
          &:nth-of-type(25) {
@@ -338,17 +459,16 @@ main {
          }
 
          &:nth-of-type(26) {
-            width: 33.3%;
+            height: 30vh;
          }
 
          &:nth-of-type(27) {
             width: 33.3%;
-            height: 30vh;
          }
 
          &:nth-of-type(28) {
             width: 33.3%;
-            height: 40vh;
+            height: 30vh;
          }
 
          &:nth-of-type(29) {
@@ -358,7 +478,7 @@ main {
 
          &:nth-of-type(30) {
             width: 33.3%;
-            height: 30vh;
+            height: 40vh;
          }
 
          &:nth-of-type(31) {
@@ -373,7 +493,7 @@ main {
 
          &:nth-of-type(33) {
             width: 33.3%;
-            height: 10vh;
+            height: 30vh;
          }
 
          &:nth-of-type(34) {
@@ -382,6 +502,15 @@ main {
          }
 
          &:nth-of-type(35) {
+            width: 33.3%;
+            height: 10vh;
+         }
+
+         &:nth-of-type(36) {
+            width: 33.3%;
+            height: 10vh;
+         }
+         &:nth-of-type(37) {
             width: 33.3%;
             height: 10vh;
          }
