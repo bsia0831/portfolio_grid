@@ -3,7 +3,7 @@
 
 main {
    width: 100%;
-   padding: 4vw;
+   background: #fff;
 
    section {
       width: 100%;
@@ -17,39 +17,182 @@ main {
       //최소박스의 넓이 설정용 더미 박스
       //높이값은 설정하지 않고 숨김처리
       .item-sizer {
-         width: 25%;
+         width: calc(100% / 6);
          height: 0px;
          opacity: 0;
       }
 
       .item {
-         width: 25%;
-         height: 30vh;
-         padding: 15px;
+         width: calc(100% / 6);
+         height: 70vh;
          float: left;
-
-         //첫번째 박스 스타일
-         &:nth-of-type(2) {width: 50%; height: 60vh;}
-
-         //두번째 박스 스타일
-         &:nth-of-type(3) {width: 50%;}
-
-         //네번째 박스 스타일
-         &:nth-of-type(5) {height: 60vh;}
-
-         //여섯번째 박스 스타일
-         &:nth-of-type(7) {width: 50%;}
+         border-right: 0.25px solid #111;
+         border-top: 0.25px solid #111;
 
          .inner {
             width: 100%;
             height: 100%;
-            background: #fff;
+         }
+
+         &:nth-of-type(2) {
+            height: 5vh;
+         }
+
+         &:nth-of-type(3) {
+            height: 10vh;
+         }
+
+         &:nth-of-type(4) {
+            width: 33.3%;
+            height: 10vh;
+         }
+
+         &:nth-of-type(5) {
+            height: 10vh;
+         }
+
+         &:nth-of-type(6) {
+            height: 10vh;
+         }
+
+         &:nth-of-type(7) {
+            height: 5vh;
+         }
+
+         &:nth-of-type(8) {
+            width: 33.3%;
+            height: 30vh;
+         }
+
+         &:nth-of-type(9) {
+            width: 33.3%;
+         }
+
+         &:nth-of-type(10) {
+            width: 33.3%;
+         }
+
+         &:nth-of-type(11) {
+            width: 33.3%;
+            height: 40vh;
+         }
+
+         &:nth-of-type(12) {
+            height: 30vh;
+         }
+
+         &:nth-of-type(13) {
+            height: 30vh;
+         }
+
+         &:nth-of-type(14) {
+            width: 33.3%;
+         }
+
+         &:nth-of-type(15) {
+            
+         }
+
+         &:nth-of-type(16) {
+            
+         }
+
+         &:nth-of-type(17) {
+            width: 33.3%;
+            height: 40vh;
+         }
+
+         &:nth-of-type(18) {
+            width: 33.3%;
+            height: 20vh;
+         }
+
+         &:nth-of-type(19) {
+            width: 33.3%;
+            height: 20vh;
+         }
+
+         &:nth-of-type(20) {
+            width: 33.3%;
+            height: 50vh;
+         }
+
+         &:nth-of-type(21) {
+            width: 33.3%;
+            height: 50vh;
+         }
+
+         &:nth-of-type(22) {
+            width: 33.3%;
+            height: 50vh;
+         }
+
+         &:nth-of-type(23) {
+            width: 33.3%;
+            height: 20vh;
+         }
+
+         &:nth-of-type(24) {
+            height: 30vh;
+         }
+
+         &:nth-of-type(25) {
+            height: 30vh;
+         }
+
+         &:nth-of-type(26) {
+            width: 33.3%;
+         }
+
+         &:nth-of-type(27) {
+            width: 33.3%;
+            height: 30vh;
+         }
+
+         &:nth-of-type(28) {
+            width: 33.3%;
+            height: 40vh;
+         }
+
+         &:nth-of-type(29) {
+            width: 33.3%;
+            height: 40vh;
+         }
+
+         &:nth-of-type(30) {
+            width: 33.3%;
+            height: 30vh;
+         }
+
+         &:nth-of-type(31) {
+            width: 33.3%;
+            height: 30vh;
+         }
+
+         &:nth-of-type(32) {
+            width: 33.3%;
+            height: 30vh;
+         }
+
+         &:nth-of-type(33) {
+            width: 33.3%;
+            height: 10vh;
+         }
+
+         &:nth-of-type(34) {
+            width: 33.3%;
+            height: 10vh;
+         }
+
+         &:nth-of-type(35) {
+            width: 33.3%;
+            height: 10vh;
          }
       }
    }
 }
 
-@media screen and (max-width: 1199px){
+@media screen and (max-width: 1199px) {
    main section {
       .item-sizer {
          width: 33.333%;
@@ -64,22 +207,33 @@ main {
          float: left;
 
          //첫번째 박스 스타일
-         &:nth-of-type(2) {width: 66.666%; height: 50vh;}
+         &:nth-of-type(2) {
+            width: 66.666%;
+            height: 50vh;
+         }
 
          //두번째 박스 스타일
-         &:nth-of-type(3) {width: 33.333%; height: 50vh;}
+         &:nth-of-type(3) {
+            width: 33.333%;
+            height: 50vh;
+         }
 
          //네번째 박스 스타일
-         &:nth-of-type(5) {width: 66.666%; height: 50vh;}
+         &:nth-of-type(5) {
+            width: 66.666%;
+            height: 50vh;
+         }
 
          //여섯번째 박스 스타일
-         &:nth-of-type(7) {width: 100%;}
+         &:nth-of-type(7) {
+            width: 100%;
+         }
 
          .inner {
             width: 100%;
             height: 100%;
             background: #fff;
-            box-shadow: 5px 5px 20px rgba(0,0,0,.1);
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, .1);
          }
       }
    }
