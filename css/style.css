@@ -13,6 +13,13 @@ a {
 body {
   background: #efefef; }
 
+.minibars {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  text-align: right;
+  cursor: pointer; }
+
 main {
   width: 100%;
   background: #fff; }
@@ -68,7 +75,7 @@ main {
           line-height: 10vh;
           text-align: center;
           cursor: pointer;
-          color: #555; }
+          color: #333; }
       main section .item:nth-of-type(7) {
         height: 5vh; }
         main section .item:nth-of-type(7) .inner span {
@@ -135,21 +142,108 @@ main {
           main section .item:nth-of-type(11) .inner p {
             position: absolute;
             bottom: 30px;
-            font: lighter 15px/1 'Heebo'; }
-          main section .item:nth-of-type(11) .inner i {
-            position: absolute;
-            bottom: 30px;
-            right: 30px;
-            text-align: right; }
+            font: lighter 15px/1 'Heebo';
+            text-decoration: underline; }
       main section .item:nth-of-type(12) {
         height: 30vh; }
+        main section .item:nth-of-type(12) .inner img {
+          width: 60%;
+          height: 60%;
+          border-radius: 100%;
+          object-fit: cover;
+          object-position: top;
+          filter: grayscale(1);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
       main section .item:nth-of-type(13) {
         height: 30vh; }
+        main section .item:nth-of-type(13) .inner {
+          padding: 30px 20px; }
+          main section .item:nth-of-type(13) .inner h2 {
+            font: lighter 35px/1 'Heebo';
+            letter-spacing: 2px; }
+          main section .item:nth-of-type(13) .inner p {
+            position: absolute;
+            bottom: 30px;
+            font: lighter 12px/1.3 'Heebo';
+            text-decoration: underline; }
       main section .item:nth-of-type(14) {
         width: 33.3%; }
+        main section .item:nth-of-type(14) .inner {
+          width: 90%;
+          height: 90%;
+          border: 1px solid #111;
+          margin: 5% auto;
+          background-image: url(../img/main3.jpeg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+          main section .item:nth-of-type(14) .inner h3 {
+            font: 30px/1 'Heebo';
+            color: #fff;
+            letter-spacing: 2px;
+            writing-mode: vertical-rl;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); }
+      main section .item:nth-of-type(15) .inner {
+        padding: 30px 20px; }
+        main section .item:nth-of-type(15) .inner h2 {
+          font: lighter 35px/1 'Heebo';
+          letter-spacing: 2px; }
+        main section .item:nth-of-type(15) .inner p {
+          position: absolute;
+          bottom: 23px;
+          font: lighter 9px/1.3 'Heebo';
+          text-decoration: underline; }
+      main section .item:nth-of-type(16) .inner {
+        background-image: url(../img/main4.jpeg);
+        filter: grayscale(1);
+        padding: 1px; }
+        main section .item:nth-of-type(16) .inner .wrap {
+          width: 80%;
+          height: 80%;
+          margin: 17% auto;
+          border: 1px solid #fff;
+          background-color: #fff; }
+          main section .item:nth-of-type(16) .inner .wrap h3 {
+            font: lighter 30px/1 'Heebo';
+            color: #fff;
+            letter-spacing: 2px;
+            color: #111;
+            writing-mode: vertical-rl;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); }
       main section .item:nth-of-type(17) {
         width: 33.3%;
         height: 40vh; }
+        main section .item:nth-of-type(17) .inner {
+          background-image: url(../img/main5.jpg);
+          background-size: cover;
+          filter: grayscale(1);
+          padding: 1px; }
+          main section .item:nth-of-type(17) .inner .wrap {
+            width: 80%;
+            height: 80%;
+            margin: 6% auto;
+            border: 1px solid #fff;
+            background-color: #fff;
+            opacity: .9; }
+            main section .item:nth-of-type(17) .inner .wrap h3 {
+              font: lighter 30px/1 'Heebo';
+              color: #fff;
+              letter-spacing: 2px;
+              color: #111;
+              text-align: center;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%); }
       main section .item:nth-of-type(18) {
         width: 33.3%;
         height: 20vh; }
