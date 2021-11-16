@@ -539,15 +539,37 @@ main {
       main section .item:nth-of-type(34) {
         width: 33.3%;
         height: 10vh; }
+        main section .item:nth-of-type(34) .inner span {
+          font: lighter 12px/10vh 'Heebo';
+          text-align: center;
+          text-decoration: underline;
+          letter-spacing: 1px; }
+          main section .item:nth-of-type(34) .inner span:first-child {
+            margin-left: 26%; }
       main section .item:nth-of-type(35) {
         width: 33.3%;
         height: 10vh; }
+        main section .item:nth-of-type(35) .inner h4 {
+          font: lighter 12px/10vh; }
       main section .item:nth-of-type(36) {
         width: 33.3%;
         height: 10vh; }
+        main section .item:nth-of-type(36) .inner h4 {
+          font: lighter 12px/10vh 'Heebo';
+          text-decoration: underline;
+          text-align: center;
+          letter-spacing: 1px; }
       main section .item:nth-of-type(37) {
         width: 33.3%;
         height: 10vh; }
+        main section .item:nth-of-type(37) .inner ul {
+          width: 100%; }
+          main section .item:nth-of-type(37) .inner ul::after {
+            content: '';
+            display: block;
+            clear: both; }
+          main section .item:nth-of-type(37) .inner ul li {
+            float: left; }
 
 @media screen and (max-width: 1199px) {
   main section .item-sizer {
