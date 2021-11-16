@@ -607,16 +607,43 @@ main {
          &:nth-of-type(31) {
             width: 33.3%;
             height: 30vh;
+            .inner{
+               padding: 30px 20px;
+               h2{
+                  font: lighter 32px/1.3 'Heebo'; letter-spacing: 2px;
+               }
+               p{
+                  position: absolute; bottom: 30px;
+                  font: lighter 12px/1.3 'Heebo';
+                  text-decoration: underline;
+               }
+            }
          }
 
          &:nth-of-type(32) {
             width: 33.3%;
             height: 30vh;
+            .line{
+               width: 80%; height: 50%;
+               border-bottom: 1px solid #111;
+               margin: 0 auto;
+            }
          }
 
          &:nth-of-type(33) {
             width: 33.3%;
             height: 30vh;
+            .inner{
+               padding: 30px 20px;
+               h2{
+                  font: lighter 32px/1.3 'Heebo'; letter-spacing: 2px;
+               }
+               p{
+                  position: absolute; bottom: 30px;
+                  font: lighter 12px/1.3 'Heebo';
+                  text-decoration: underline;
+               }
+            }
          }
 
          &:nth-of-type(34) {
