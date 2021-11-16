@@ -382,19 +382,126 @@ main {
             text-decoration: underline; }
       main section .item:nth-of-type(25) {
         height: 30vh; }
+        main section .item:nth-of-type(25) .inner {
+          padding: 30px 20px; }
+          main section .item:nth-of-type(25) .inner h2 {
+            font: lighter 32px/1.3 'Heebo';
+            letter-spacing: 2px; }
+          main section .item:nth-of-type(25) .inner p {
+            position: absolute;
+            bottom: 30px;
+            font: lighter 9px/1.3 'Heebo';
+            text-decoration: underline; }
       main section .item:nth-of-type(26) {
         height: 30vh; }
+        main section .item:nth-of-type(26) .inner .first-wrap {
+          width: 80%;
+          height: 80%;
+          border: 1px solid #111;
+          margin: 8% auto; }
+          main section .item:nth-of-type(26) .inner .first-wrap .second-wrap {
+            width: 65%;
+            height: 65%;
+            border: 1px solid #111;
+            margin: 15% auto;
+            text-align: center; }
+            main section .item:nth-of-type(26) .inner .first-wrap .second-wrap .third-wrap {
+              width: 50%;
+              height: 50%;
+              border: 1px solid #111;
+              margin: 20% auto;
+              text-align: center; }
       main section .item:nth-of-type(27) {
         width: 33.3%; }
+        main section .item:nth-of-type(27) .inner {
+          width: 90%;
+          height: 90%;
+          border: 1px solid #111;
+          margin: 4% auto;
+          background-image: url(../img/main9.jpeg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover; }
+          main section .item:nth-of-type(27) .inner h3 {
+            font: 30px/1 'Heebo';
+            color: #111;
+            letter-spacing: 2px;
+            writing-mode: vertical-rl;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); }
       main section .item:nth-of-type(28) {
         width: 33.3%;
         height: 30vh; }
+        main section .item:nth-of-type(28) .inner {
+          position: relative; }
+          main section .item:nth-of-type(28) .inner .wrap {
+            width: 100%;
+            padding: 35px 50px;
+            margin: 0 auto;
+            text-align: center;
+            position: absolute; }
+            main section .item:nth-of-type(28) .inner .wrap::after {
+              content: '';
+              display: block;
+              clear: both; }
+            main section .item:nth-of-type(28) .inner .wrap .circle {
+              float: left;
+              width: 10px;
+              height: 10px;
+              margin-right: 40px;
+              margin-bottom: 20px;
+              border-radius: 100%;
+              border: 1px solid #111;
+              cursor: pointer;
+              transition: all .3s; }
+              main section .item:nth-of-type(28) .inner .wrap .circle:first-child {
+                background-color: #111; }
+              main section .item:nth-of-type(28) .inner .wrap .circle:last-child {
+                border: none;
+                margin-top: -5px; }
+              main section .item:nth-of-type(28) .inner .wrap .circle:hover {
+                background-color: #111; }
+              main section .item:nth-of-type(28) .inner .wrap .circle:nth-of-type(8n) {
+                margin-right: 0; }
       main section .item:nth-of-type(29) {
         width: 33.3%;
         height: 40vh; }
+        main section .item:nth-of-type(29) .inner {
+          background-image: url(../img/main10.jpeg);
+          background-position: center;
+          background-size: cover;
+          filter: grayscale(1);
+          padding: 1px; }
+          main section .item:nth-of-type(29) .inner .wrap {
+            width: 90%;
+            height: 80%;
+            margin: 6% auto;
+            border: 1px solid #fff;
+            background-color: #fff; }
+            main section .item:nth-of-type(29) .inner .wrap h3 {
+              font: lighter 35px/1 'Heebo';
+              color: #fff;
+              letter-spacing: 2px;
+              color: #111;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%); }
       main section .item:nth-of-type(30) {
         width: 33.3%;
         height: 40vh; }
+        main section .item:nth-of-type(30) .inner {
+          padding: 30px 20px; }
+          main section .item:nth-of-type(30) .inner h2 {
+            font: lighter 32px/1.3 'Heebo';
+            letter-spacing: 2px; }
+          main section .item:nth-of-type(30) .inner p {
+            position: absolute;
+            bottom: 30px;
+            font: lighter 12px/1.3 'Heebo';
+            text-decoration: underline; }
       main section .item:nth-of-type(31) {
         width: 33.3%;
         height: 30vh; }
