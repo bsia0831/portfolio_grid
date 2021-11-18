@@ -549,8 +549,24 @@ main {
       main section .item:nth-of-type(35) {
         width: 33.3%;
         height: 10vh; }
-        main section .item:nth-of-type(35) .inner h4 {
-          font: lighter 12px/10vh; }
+        main section .item:nth-of-type(35) .inner ul {
+          width: 100%;
+          height: 100%;
+          text-align: center; }
+          main section .item:nth-of-type(35) .inner ul::after {
+            content: '';
+            display: block;
+            clear: both; }
+          main section .item:nth-of-type(35) .inner ul li {
+            width: 6%;
+            float: left;
+            line-height: 10vh;
+            text-align: center;
+            font-family: 'Heebo';
+            font-weight: lighter; }
+            main section .item:nth-of-type(35) .inner ul li:first-child {
+              width: 20%;
+              margin-left: 30%; }
       main section .item:nth-of-type(36) {
         width: 33.3%;
         height: 10vh; }
@@ -559,19 +575,5 @@ main {
           text-decoration: underline;
           text-align: center;
           letter-spacing: 1px; }
-      main section .item:nth-of-type(37) {
-        width: 33.3%;
-        height: 10vh; }
-        main section .item:nth-of-type(37) .inner ul {
-          width: 100%;
-          height: 100%; }
-          main section .item:nth-of-type(37) .inner ul::after {
-            content: '';
-            display: block;
-            clear: both; }
-          main section .item:nth-of-type(37) .inner ul li {
-            float: left; }
-            main section .item:nth-of-type(37) .inner ul li i {
-              display: block; }
 
 /*# sourceMappingURL=style.css.map */
