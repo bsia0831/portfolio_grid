@@ -57,7 +57,7 @@ main {
           letter-spacing: 2px;
           text-align: center; }
       main section .item:nth-of-type(4) {
-        width: 50%;
+        width: 33.3%;
         height: 10vh; }
       main section .item:nth-of-type(5) {
         height: 10vh; }
@@ -84,7 +84,7 @@ main {
           letter-spacing: 1px;
           text-align: center; }
       main section .item:nth-of-type(8) {
-        width: 50%;
+        width: 33.3%;
         height: 30vh; }
         main section .item:nth-of-type(8) .inner::after {
           content: "";
@@ -93,20 +93,20 @@ main {
         main section .item:nth-of-type(8) .inner .right-border-box {
           float: left;
           width: calc(100% / 6);
-          height: 50%;
+          height: 33.3%;
           border-right: 1px solid #111;
           margin-top: 7vh; }
           main section .item:nth-of-type(8) .inner .right-border-box:last-child {
             border-right: none; }
       main section .item:nth-of-type(9) {
-        width: 50%;
+        width: 33.3%;
         background-image: url(../img/main1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         filter: grayscale(1); }
       main section .item:nth-of-type(10) {
-        width: 50%; }
+        width: 33.3%; }
         main section .item:nth-of-type(10) .inner .first-wrap {
           width: 90%;
           height: 90%;
@@ -123,8 +123,8 @@ main {
               position: relative;
               font: 30px/1 'Heebo';
               letter-spacing: 2px;
-              top: 50%;
-              transform: translateY(-50%); }
+              top: 33.3%;
+              transform: translateY(-33.3%); }
             main section .item:nth-of-type(10) .inner .first-wrap .second-wrap p {
               display: block;
               position: relative;
@@ -132,7 +132,7 @@ main {
               letter-spacing: 2px;
               top: 45%; }
       main section .item:nth-of-type(11) {
-        width: 50%;
+        width: 33.3%;
         height: 40vh; }
         main section .item:nth-of-type(11) .inner {
           padding: 30px 20px; }
@@ -154,9 +154,9 @@ main {
           object-position: top;
           filter: grayscale(1);
           position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%); }
+          top: 33.3%;
+          left: 33.3%;
+          transform: translate(-33.3%, -33.3%); }
       main section .item:nth-of-type(13) {
         height: 30vh; }
         main section .item:nth-of-type(13) .inner {
@@ -170,7 +170,7 @@ main {
             font: lighter 12px/1.3 'Heebo';
             text-decoration: underline; }
       main section .item:nth-of-type(14) {
-        width: 50%; }
+        width: 33.3%; }
         main section .item:nth-of-type(14) .inner {
           width: 90%;
           height: 90%;
@@ -186,9 +186,9 @@ main {
             letter-spacing: 2px;
             writing-mode: vertical-rl;
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%); }
+            top: 33.3%;
+            left: 33.3%;
+            transform: translate(-33.3%, -33.3%); }
       main section .item:nth-of-type(15) .inner {
         padding: 30px 20px; }
         main section .item:nth-of-type(15) .inner h2 {
@@ -216,11 +216,11 @@ main {
             color: #111;
             writing-mode: vertical-rl;
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%); }
+            top: 33.3%;
+            left: 33.3%;
+            transform: translate(-33.3%, -33.3%); }
       main section .item:nth-of-type(17) {
-        width: 50%;
+        width: 33.3%;
         height: 40vh; }
         main section .item:nth-of-type(17) .inner {
           background-image: url(../img/main5.jpg);
@@ -241,11 +241,11 @@ main {
               color: #111;
               text-align: center;
               position: absolute;
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%); }
+              top: 33.3%;
+              left: 33.3%;
+              transform: translate(-33.3%, -33.3%); }
       main section .item:nth-of-type(18) {
-        width: 50%;
+        width: 33.3%;
         height: 50vh; }
         main section .item:nth-of-type(18) .inner {
           width: 90%;
@@ -262,11 +262,11 @@ main {
             letter-spacing: 2px;
             writing-mode: vertical-rl;
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%); }
+            top: 33.3%;
+            left: 33.3%;
+            transform: translate(-33.3%, -33.3%); }
       main section .item:nth-of-type(19) {
-        width: 50%;
+        width: 33.3%;
         height: 20vh; }
         main section .item:nth-of-type(19) .inner {
           padding: 30px 20px; }
@@ -279,15 +279,15 @@ main {
             font: lighter 12px/1 'Heebo';
             text-decoration: underline; }
       main section .item:nth-of-type(20) {
-        width: 50%;
+        width: 33.3%;
         height: 20vh; }
         main section .item:nth-of-type(20) .inner {
           position: relative; }
           main section .item:nth-of-type(20) .inner .wrap {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            top: 33.3%;
+            left: 33.3%;
+            transform: translate(-33.3%, -33.3%);
             margin: 0 auto;
             text-align: center;
             position: absolute; }
@@ -331,9 +331,9 @@ main {
               color: #111;
               writing-mode: vertical-rl;
               position: absolute;
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%); }
+              top: 33.3%;
+              left: 33.3%;
+              transform: translate(-33.3%, -33.3%); }
       main section .item:nth-of-type(22) {
         height: 50vh; }
         main section .item:nth-of-type(22) .inner {
@@ -347,7 +347,7 @@ main {
             font: lighter 9px/1.3 'Heebo';
             text-decoration: underline; }
       main section .item:nth-of-type(23) {
-        width: 50%;
+        width: 33.3%;
         height: 50vh; }
         main section .item:nth-of-type(23) .inner {
           width: 90%;
@@ -364,11 +364,11 @@ main {
             letter-spacing: 2px;
             writing-mode: vertical-rl;
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%); }
+            top: 33.3%;
+            left: 33.3%;
+            transform: translate(-33.3%, -33.3%); }
       main section .item:nth-of-type(24) {
-        width: 50%;
+        width: 33.3%;
         height: 20vh; }
         main section .item:nth-of-type(24) .inner {
           padding: 30px 20px; }
@@ -406,13 +406,13 @@ main {
             margin: 15% auto;
             text-align: center; }
             main section .item:nth-of-type(26) .inner .first-wrap .second-wrap .third-wrap {
-              width: 50%;
-              height: 50%;
+              width: 33.3%;
+              height: 33.3%;
               border: 1px solid #111;
               margin: 20% auto;
               text-align: center; }
       main section .item:nth-of-type(27) {
-        width: 50%; }
+        width: 33.3%; }
         main section .item:nth-of-type(27) .inner {
           width: 90%;
           height: 90%;
@@ -428,11 +428,11 @@ main {
             letter-spacing: 2px;
             writing-mode: vertical-rl;
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%); }
+            top: 33.3%;
+            left: 33.3%;
+            transform: translate(-33.3%, -33.3%); }
       main section .item:nth-of-type(28) {
-        width: 50%;
+        width: 33.3%;
         height: 30vh; }
         main section .item:nth-of-type(28) .inner {
           position: relative; }
@@ -466,7 +466,7 @@ main {
               main section .item:nth-of-type(28) .inner .wrap .circle:nth-of-type(8n) {
                 margin-right: 0; }
       main section .item:nth-of-type(29) {
-        width: 50%;
+        width: 33.3%;
         height: 40vh; }
         main section .item:nth-of-type(29) .inner {
           background-image: url(../img/main10.jpeg);
@@ -486,11 +486,11 @@ main {
               letter-spacing: 2px;
               color: #111;
               position: absolute;
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%); }
+              top: 33.3%;
+              left: 33.3%;
+              transform: translate(-33.3%, -33.3%); }
       main section .item:nth-of-type(30) {
-        width: 50%;
+        width: 33.3%;
         height: 40vh; }
         main section .item:nth-of-type(30) .inner {
           padding: 30px 20px; }
@@ -503,7 +503,7 @@ main {
             font: lighter 12px/1.3 'Heebo';
             text-decoration: underline; }
       main section .item:nth-of-type(31) {
-        width: 50%;
+        width: 33.3%;
         height: 30vh; }
         main section .item:nth-of-type(31) .inner {
           padding: 30px 20px; }
@@ -516,15 +516,15 @@ main {
             font: lighter 12px/1.3 'Heebo';
             text-decoration: underline; }
       main section .item:nth-of-type(32) {
-        width: 50%;
+        width: 33.3%;
         height: 30vh; }
         main section .item:nth-of-type(32) .line {
           width: 80%;
-          height: 50%;
+          height: 33.3%;
           border-bottom: 1px solid #111;
           margin: 0 auto; }
       main section .item:nth-of-type(33) {
-        width: 50%;
+        width: 33.3%;
         height: 30vh; }
         main section .item:nth-of-type(33) .inner {
           padding: 30px 20px; }
@@ -537,7 +537,7 @@ main {
             font: lighter 12px/1.3 'Heebo';
             text-decoration: underline; }
       main section .item:nth-of-type(34) {
-        width: 50%;
+        width: 33.3%;
         height: 10vh; }
         main section .item:nth-of-type(34) .inner span {
           font: lighter 12px/10vh 'Heebo';
@@ -547,7 +547,7 @@ main {
           main section .item:nth-of-type(34) .inner span:first-child {
             margin-left: 26%; }
       main section .item:nth-of-type(35) {
-        width: 50%;
+        width: 33.3%;
         height: 10vh; }
         main section .item:nth-of-type(35) .inner ul {
           width: 100%;
@@ -568,7 +568,7 @@ main {
               width: 20%;
               margin-left: 30%; }
       main section .item:nth-of-type(36) {
-        width: 50%;
+        width: 33.3%;
         height: 10vh; }
         main section .item:nth-of-type(36) .inner h4 {
           font: lighter 12px/10vh 'Heebo';
