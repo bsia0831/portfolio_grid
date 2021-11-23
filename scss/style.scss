@@ -155,7 +155,7 @@ main {
                         display: block;
                         position: relative;
                         font: 30px/1 'Heebo'; letter-spacing: 2px;
-                        top: 33.3%; transform: translateY(-33.3%);
+                        top: 50%; transform: translateY(-50%);
                      }
                      p{
                         display: block;
@@ -194,7 +194,7 @@ main {
                   object-fit: cover; object-position: top;
                   filter: grayscale(1);
                   position: absolute;
-                  top: 33.3%; left: 33.3%; transform: translate(-33.3%, -33.3%);
+                  top: 50%; left: 50%; transform: translate(-50%, -50%);
                }
             }
          }
@@ -229,7 +229,7 @@ main {
                   font: 30px/1 'Heebo'; color: #fff; letter-spacing: 2px;
                   writing-mode: vertical-rl;
                   position: absolute;
-                  top: 33.3%; left: 33.3%; transform: translate(-33.3%, -33.3%);
+                  top: 50%; left: 50%; transform: translate(-50%, -50%);
                }
             }
          }
@@ -266,7 +266,7 @@ main {
                      color: #111;
                      writing-mode: vertical-rl;
                      position: absolute;
-                     top: 33.3%; left: 33.3%; transform: translate(-33.3%, -33.3%);
+                     top: 50%; left: 50%; transform: translate(-50%, -50%);
                   }
                }
             }
@@ -289,11 +289,11 @@ main {
                   opacity: .9;
 
                   h3{
-                     font: lighter 30px/1 'Heebo'; color: #fff; letter-spacing: 2px;
+                     font: 30px/1 'Heebo'; color: #fff; letter-spacing: 2px;
                      color: #111;
                      text-align: center;
                      position: absolute;
-                     top: 33.3%; left: 33.3%; transform: translate(-33.3%, -33.3%);
+                     top: 50%; left: 50%; transform: translate(-50%, -50%);
                   }
                }
             }
@@ -315,7 +315,7 @@ main {
                   font: 25px/1 'Heebo'; color: #fff; letter-spacing: 2px;
                   writing-mode: vertical-rl;
                   position: absolute;
-                  top: 33.3%; left: 33.3%; transform: translate(-33.3%, -33.3%);
+                  top: 50%; left: 50%; transform: translate(-50%, -50%);
                }
             }
          }
@@ -343,8 +343,8 @@ main {
                position: relative;
                .wrap{
                   position: absolute;
-                  top: 33.3%; left: 33.3%;
-                  transform: translate(-33.3%, -33.3%);
+                  top: 50%; left: 50%;
+                  transform: translate(-50%, -50%);
                   margin: 0 auto; text-align: center;
                   position: absolute;
                   &::after{
@@ -396,7 +396,7 @@ main {
                      color: #111;
                      writing-mode: vertical-rl;
                      position: absolute;
-                     top: 33.3%; left: 33.3%; transform: translate(-33.3%, -33.3%);
+                     top: 50%; left: 50%; transform: translate(-50%, -50%);
                   }
                }
             }
@@ -433,7 +433,7 @@ main {
                   font: 23px/1 'Heebo'; color: #fff; letter-spacing: 2px;
                   writing-mode: vertical-rl;
                   position: absolute;
-                  top: 33.3%; left: 33.3%; transform: translate(-33.3%, -33.3%);
+                  top: 50%; left: 50%; transform: translate(-50%, -50%);
                }
             }
          }
@@ -512,7 +512,7 @@ main {
                   font: 30px/1 'Heebo'; color: #111; letter-spacing: 2px;
                   writing-mode: vertical-rl;
                   position: absolute;
-                  top: 33.3%; left: 33.3%; transform: translate(-33.3%, -33.3%);
+                  top: 50%; left: 50%; transform: translate(-50%, -50%);
                }
             }
          }
@@ -582,7 +582,7 @@ main {
                      font: lighter 35px/1 'Heebo'; color: #fff; letter-spacing: 2px;
                      color: #111;
                      position: absolute;
-                     top: 33.3%; left: 33.3%; transform: translate(-33.3%, -33.3%);
+                     top: 50%; left: 50%; transform: translate(-50%, -50%);
                   }
                }
             }
